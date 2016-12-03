@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RecentContests</string>
+    <string name="author" translatable="false">qinshaoxuan</string>
+    <string name="blog" translatable="false">Blog : <a href="http://qsxuan.com">qsxuan.com</a></string>
+    <string name="data_source" translatable="false"><a href="http://contests.acmicpc.info">contests.acmicpc.info</a></string>
+    <string name="GitHub" translatable="false"><a href="https://github.com/qinshaoxuan/RecentContests.git">https://github.com/qinshaoxuan/RecentContests.git</a></string>
+</resources>

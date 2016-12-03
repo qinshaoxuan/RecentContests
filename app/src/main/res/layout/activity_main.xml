@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qsxuan.recentcontests.activity.MainActivity">
+
+    <TextClock
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textClock"
+            android:format24Hour="yyyy-MM-dd hh:mm:ss  EEEE"
+            android:background="#29b6f6"
+            android:textColor="@android:color/background_light"
+            android:paddingLeft="10dp"
+            android:format12Hour="yyyy-MM-dd hh:mm:ss  EEEE"/>
+
+    <ListView
+            android:id="@+id/list_entry"
+            android:drawSelectorOnTop="true"
+            android:layout_height="match_parent"
+            android:headerDividersEnabled="false"
+            android:footerDividersEnabled="false"
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/textClock"/>
+
+</RelativeLayout>
